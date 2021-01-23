@@ -1,0 +1,57 @@
+
+footer{
+  
+    background-color: red !important;
+   
+    width: 100%;
+    height: 81px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*justify-content: center;
+    text-align: center;*/
+}
+footer .copyright{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+header{
+    position: top!important;
+}
+.seccionCard{
+    margin-top: 50px;
+}
+
+.card{
+    margin: 20px 0px;
+    position: relative;
+}
+.seccionCard{
+    margin: 100px 0px;
+}
+.usuarios{
+   /* margin: 200px 0px;*/
+   margin-top: 50px;
+}
+.personas{
+    display: flex;
+    background-color: #000000;
+    overflow: hidden;  
+    justify-content: center;
+
+}
+.personas p{
+
+    display: inline-block;
+    float: left;
+    padding: 20px;
+    color: #fff;
+}
+.personas p:hover{
+    color: red;
+    background-color: #000000;
+  
+}
